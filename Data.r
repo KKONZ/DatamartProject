@@ -1,6 +1,8 @@
 # This is a basic conceptual cube construction for an outline of library resource utilization by student population.
 # In this example there is no actual data from the university and the figures are sampled values.
 
+ # The structure of this construction was based off the pragmatic blog programming techniques blog by Ricky Ho: 
+ #                                                      http://horicky.blogspot.com/2013/07/olap-operation-in-r.html
  
 student_table <- data.frame(key=c("freshman", "sophmore", "junior", "senior", "above"),
                             # switch name with somesort of STARID index
