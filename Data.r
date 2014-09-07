@@ -3,7 +3,7 @@
 
  
 student_table <- data.frame(key=c("freshman", "sophmore", "junior", "senior", "above"),
-                            # switch name with STARID index
+                            # switch name with somesort of STARID index
                             name = c("aalexander", "ajohnson", "aoriley", "amarquez", "ashoefnner"),
                             # indicates year of study, refactor this
                             year=c("0", "1", "2", "3", "4"))
