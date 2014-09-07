@@ -49,3 +49,11 @@ gen_sales <- function(no_of_recs) {
 sales_fact <- gen_sales(500)
 
 head(sales_fact)
+
+  month year      lvl   prod unit amount_of_time
+1     1 2012 freshman Laptop    2            400
+2     1 2012    above   Book    2            200
+3     1 2012    above Laptop    1            200
+4     1 2012 sophmore   Book    1            100
+5     1 2012   senior   Book    1            100
+6     1 2012   senior   Book    1            100
