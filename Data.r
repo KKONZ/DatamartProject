@@ -1,9 +1,11 @@
 # This is a basic conceptual cube construction for an outline of library resource utilization by student population.
 # In this example there is no actual data from the university and the figures are sampled values.
 
-# switch name with STARID index 
+ 
 student_table <- data.frame(key=c("freshman", "sophmore", "junior", "senior", "above"),
+                            # switch name with STARID index
                             name = c("aalexander", "ajohnson", "aoriley", "amarquez", "ashoefnner"),
+                            # indicates year of study, refactor this
                             year=c("0", "1", "2", "3", "4"))
 
 month_table <- data.frame(key=1:12,
