@@ -18,6 +18,7 @@ month_table <- data.frame(key=1:12,
 # table of library resources
 prod_table <- 
         data.frame(key=c("Room", "Book", "Laptop"),
+                   # change this to a more refined index
                    price=c(100, 200, 300))
 
 # Function to generate 
