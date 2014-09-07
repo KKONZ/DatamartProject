@@ -7,6 +7,7 @@ student_table <- data.frame(key=c("freshman", "sophmore", "junior", "senior", "a
                             name = c("aalexander", "ajohnson", "aoriley", "amarquez", "ashoefnner"),
                             # indicates year of study, refactor this
                             year=c("0", "1", "2", "3", "4"))
+                            # add information about the students GPA/performance 
 
 month_table <- data.frame(key=1:12,
                           desc=c("Jan","Feb","Mar","Apr","May","Jun", "Jul", 
@@ -16,6 +17,8 @@ month_table <- data.frame(key=1:12,
                                      "fall", "fall", "fall", "fall"))
 
 # table of library resources
+
+# Change this name to something more intuitive
 prod_table <- 
         data.frame(key=c("Room", "Book", "Laptop"),
                    # change this to a more refined index
